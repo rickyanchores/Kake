@@ -1,0 +1,14 @@
+#contacts{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: black;
+    color: whitesmoke;
+    padding: 1em;
+    li{
+        list-style: none;
+        a{
+            color: pink;
+        }
+    }
+}

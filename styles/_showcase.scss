@@ -1,0 +1,15 @@
+#showcase{
+    background-color: pink;
+    //background-image: url("/images/image5.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: whitesmoke;
+        font-size: 3em;
+    }
+}
