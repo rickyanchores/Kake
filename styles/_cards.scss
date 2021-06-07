@@ -2,12 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
+    width: 80%;
+    margin: auto;
     .card{
-        width: 400px;
+        border: 2px salmon solid;
+        width: 350px;
         padding: 1em;
+        margin: 1em;
         img{
             width: 100%;
         }
-    }
+    }    
 }

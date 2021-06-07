@@ -103,14 +103,15 @@ body {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  width: 80%;
+  margin: auto;
 }
 
 .cards .card {
-  width: 400px;
+  border: 2px salmon solid;
+  width: 350px;
   padding: 1em;
+  margin: 1em;
 }
 
 .cards .card img {
