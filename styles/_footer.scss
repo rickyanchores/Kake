@@ -1,7 +1,8 @@
 $primaryColor: whitesmoke;
-$secondaryColor: rgb(214, 162, 170);
+$secondaryColor: #333;
+$thirdColor: rgb(228, 52, 81);
 
 footer{
-    background: pink;
+    background: $thirdColor;
     padding: 3em;
 }

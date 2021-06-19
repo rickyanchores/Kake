@@ -1,15 +1,17 @@
 #showcase{
-    background-color: pink;
-    //background-image: url("/images/image5.jpeg");
+    //background-color: pink;
+    background-image: url("/images/stock3.jpeg");
+    opacity: 0.9;
     background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
+    width: 100%;
     h1{
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        color: whitesmoke;
-        font-size: 3em;
+        color: rgb(228, 52, 81);
+        font-size: 10em;
     }
 }
