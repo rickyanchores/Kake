@@ -12,3 +12,17 @@
         }
     }
 }
+
+@media(max-width: 700px){
+    #contacts{
+        flex-direction: column;
+        ul{
+            align-items: center;
+            width: 90%;
+            margin: auto;
+            i{
+                font-size: 1.4em;
+            }
+        }
+    }
+}

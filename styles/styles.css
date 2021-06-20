@@ -95,6 +95,12 @@ body {
   color: #333;
 }
 
+#services h3 {
+  font-size: 30px;
+  color: #e43451;
+  text-transform: uppercase;
+}
+
 #showcase {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/stock3.jpeg");
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/stock3.jpeg");
@@ -118,6 +124,12 @@ body {
   color: #e43451;
   font-size: 10em;
   padding: 2em;
+}
+
+@media (max-width: 700px) {
+  #showcase h1 {
+    font-size: 5em;
+  }
 }
 
 .cards {
@@ -147,6 +159,9 @@ body {
 footer {
   background: #e43451;
   padding: 3em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #contacts {
@@ -169,6 +184,25 @@ footer {
 
 #contacts li a {
   color: pink;
+}
+
+@media (max-width: 700px) {
+  #contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #contacts ul {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  #contacts ul i {
+    font-size: 1.4em;
+  }
 }
 
 #about {

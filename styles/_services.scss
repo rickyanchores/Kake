@@ -1,4 +1,14 @@
+$primaryColor: #fff;
+$secondaryColor: #333;
+$thirdColor: rgb(228, 52, 81);
+
+
 #services{
+    h3{
+        font-size: 30px;
+        color: $thirdColor;
+        text-transform: uppercase;
+    }
     padding: 1em;
     text-align: center;
     background: white;
