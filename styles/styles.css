@@ -13,11 +13,16 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #333;
+  background: white;
+  padding: 1em;
 }
 
 #header .logo {
-  color: whitesmoke;
+  color: white;
+}
+
+#header .logo img {
+  width: 80px;
 }
 
 #header .hamburger {
@@ -42,13 +47,19 @@ body {
 }
 
 #header .navLinks li a {
-  color: whitesmoke;
+  color: #333;
   text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#header .navLinks a:hover {
+  color: #e43451;
 }
 
 @media (max-width: 700px) {
   #header {
-    background: #333;
+    background: white;
   }
   #header button {
     display: none;
@@ -78,14 +89,15 @@ body {
 }
 
 #services {
+  padding: 1em;
   text-align: center;
   background: white;
   color: #333;
 }
 
 #showcase {
-  background-image: url("/images/stock3.jpeg");
-  opacity: 0.9;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/images/stock3.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/stock3.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,6 +117,7 @@ body {
   height: 100vh;
   color: #e43451;
   font-size: 10em;
+  padding: 2em;
 }
 
 .cards {
@@ -158,6 +171,48 @@ footer {
   color: pink;
 }
 
+#about {
+  background: #fff;
+  color: #333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: #333 1px solid;
+}
+
+#about .abt-txt {
+  padding: 5em;
+  line-height: 1.6;
+  font-size: 1.5em;
+}
+
+#about .abt-txt button {
+  margin-top: 2em;
+  padding: 1.5em;
+}
+
+#about .abt-img {
+  margin: 5em;
+}
+
+#about .abt-img img {
+  width: 300px;
+}
+
+@media (max-width: 700px) {
+  #about {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -181,5 +236,10 @@ button {
   border: none;
   background: #e43451;
   color: whitesmoke;
+}
+
+i {
+  font-size: 3em;
+  padding: 1em;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -4,6 +4,7 @@
 @import './cards';
 @import './footer';
 @import './contacts';
+@import './about';
 
 
 $primaryColor: #fff;
@@ -31,4 +32,9 @@ button{
     border: none;
     background: $thirdColor;
     color: whitesmoke;
+}
+
+i{
+    font-size: 3em;
+    padding: 1em;
 }

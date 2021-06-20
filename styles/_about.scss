@@ -1,0 +1,34 @@
+$primaryColor: #fff;
+$secondaryColor: #333;
+$thirdColor: rgb(228, 52, 81);
+
+
+#about{
+    background: $primaryColor;
+    color: $secondaryColor;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: $secondaryColor 1px solid;
+    .abt-txt{
+        padding: 5em;
+        line-height: 1.6;
+        font-size: 1.5em;
+        button{
+            margin-top: 2em;
+            padding: 1.5em;
+        }
+    }
+    .abt-img{
+        margin: 5em;
+        img{
+            width: 300px;
+        }
+    }
+}
+
+@media(max-width: 700px){
+    #about{
+        flex-direction: column;
+    }
+}
