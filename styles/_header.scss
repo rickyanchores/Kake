@@ -13,7 +13,9 @@ body{
     justify-content: space-around;
     align-items: center;
     background: white;
-    padding: 1em;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
     .logo{
         color: white;
         img{
