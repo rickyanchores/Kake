@@ -188,6 +188,7 @@ footer {
 
 #contacts li a {
   color: pink;
+  font-size: 0.5em;
 }
 
 @media (max-width: 700px) {
@@ -203,9 +204,6 @@ footer {
             align-items: center;
     width: 90%;
     margin: auto;
-  }
-  #contacts ul i {
-    font-size: 1.4em;
   }
 }
 
