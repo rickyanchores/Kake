@@ -17,6 +17,7 @@ body {
   position: fixed;
   width: 100%;
   overflow: hidden;
+  border-radius: 15px;
 }
 
 #header .logo {
@@ -163,9 +164,7 @@ body {
 footer {
   background: #e43451;
   padding: 3em;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  text-align: center;
 }
 
 #contacts {
@@ -179,7 +178,12 @@ footer {
           align-items: center;
   background: black;
   color: whitesmoke;
-  padding: 1em;
+}
+
+#contacts ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 #contacts li {
@@ -188,7 +192,7 @@ footer {
 
 #contacts li a {
   color: pink;
-  font-size: 0.5em;
+  font-size: 1em;
 }
 
 @media (max-width: 700px) {
@@ -197,13 +201,22 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    text-align: center;
+    padding: 1em;
   }
   #contacts ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
     width: 90%;
     margin: auto;
+  }
+  #contacts i a {
+    display: none;
   }
 }
 
