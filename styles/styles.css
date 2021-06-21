@@ -95,10 +95,13 @@ body {
   text-align: center;
   background: white;
   color: #333;
+  border: 5px #e43451 solid;
+  border-radius: 15px;
+  margin: 1em;
 }
 
 #services h3 {
-  font-size: 30px;
+  font-size: 50px;
   color: #e43451;
   text-transform: uppercase;
 }
