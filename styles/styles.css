@@ -96,7 +96,6 @@ body {
   text-align: center;
   background: white;
   color: #333;
-  border: 5px #e43451 solid;
   border-radius: 15px;
   margin: 1em;
 }
@@ -176,8 +175,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: black;
-  color: whitesmoke;
+  color: #333;
 }
 
 #contacts ul {
@@ -191,7 +189,7 @@ footer {
 }
 
 #contacts li a {
-  color: pink;
+  color: #e43451;
   font-size: 1em;
 }
 
@@ -271,7 +269,7 @@ footer {
 
 body {
   font-family: 'Josefin Sans', sans-serif;
-  background: #333;
+  background: #fff;
   color: #fff;
 }
 

@@ -1,16 +1,20 @@
+$primaryColor: #fff;
+$secondaryColor: #333;
+$thirdColor: rgb(228, 52, 81);
+
+
 #contacts{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: black;
-    color: whitesmoke;
+    color: #333;
    ul{
        display: flex;
    }
     li{
         list-style: none;
         a{
-            color: pink;
+            color: $thirdColor;
             font-size: 1em;
         }
     }
