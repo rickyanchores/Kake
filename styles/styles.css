@@ -177,6 +177,11 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   color: #333;
+  border-color: pink 2px solid;
+}
+
+#contacts .contact-title {
+  font-size: 50px;
 }
 
 #contacts ul {

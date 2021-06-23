@@ -8,6 +8,10 @@ $thirdColor: rgb(228, 52, 81);
     justify-content: space-around;
     align-items: center;
     color: #333;
+    border-color: pink 2px solid;
+    .contact-title{
+        font-size: 50px;
+    }
    ul{
        display: flex;
    }
