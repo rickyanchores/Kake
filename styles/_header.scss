@@ -13,7 +13,9 @@ body{
     justify-content: space-around;
     align-items: center;
     background: white;
+    opacity: 0.8;
     position: fixed;
+    margin-top: 20px;
     width: 100%;
     overflow: hidden;
     border-radius: 15px;
@@ -43,10 +45,11 @@ body{
             text-decoration: none;
             font-size: 30px;
             font-weight: bold;
+            a:hover{
+                color: $thirdColor;
+            }
         }
-        a:hover{
-            color: $thirdColor;
-        }
+        
     }
 }
 
